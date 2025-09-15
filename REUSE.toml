@@ -1,0 +1,33 @@
+version = 1
+
+[[annotations]]
+path = [
+	"app/src/main/ic_launcher-playstore.png",
+	"app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+	"app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+	"app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+	"app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+	"app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+	"app/.gitignore",
+	"icon.png",
+	".idea/**",
+	".gitignore",
+]
+SPDX-FileCopyrightText = "NONE"
+SPDX-License-Identifier = "Unlicense"
+
+[[annotations]]
+path = "badges/get-it-on-codeberg.png"
+SPDX-FileCopyrightText = "None"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "badges/get-it-on-github.png"
+SPDX-FileCopyrightText = "GitHub, Inc"
+SPDX-License-Identifier = "LicenseRef-GitHubLogo"
+
+[[annotations]]
+path = "gradle/wrapper/gradle-wrapper.jar"
+SPDX-FileCopyrightText = "Gradle, Inc"
+SPDX-License-Identifier = "Apache-2.0"
+

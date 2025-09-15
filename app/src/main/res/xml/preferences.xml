@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: NONE
+
+    SPDX-License-Identifier: Unlicense
+-->
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/permissions"
+        app:allowDividerAbove="false"
+        app:allowDividerBelow="false"/>
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="has_permission"
+        android:title="@string/permission"
+        app:persistent="false"
+        app:selectable="false"
+        app:singleLineTitle="false"
+        app:summary="@string/required_permission" />
+    <PreferenceCategory android:title="@string/security"
+        app:allowDividerAbove="false"
+        app:allowDividerBelow="false"/>
+    <Preference
+        android:key="copy_flag"
+        android:title="@string/flag"
+        app:summary="@string/click_to_copy" />
+    <Preference
+        android:key="reset_flag"
+        android:title="@string/reset_flag"/>
+</PreferenceScreen>

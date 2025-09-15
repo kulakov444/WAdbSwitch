@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: NONE
+
+    SPDX-License-Identifier: Unlicense
+-->
+<resources>
+    <style name="ThemeOverlay.App.Preference" parent="PreferenceThemeOverlay">
+        <item name="switchPreferenceCompatStyle">@style/Preference.SwitchPreferenceCompat.WAdbSwitch</item>
+        <item name="preferenceCategoryStyle">@style/Preference.Category.WAdbSwitch</item>
+        <item name="preferenceCategoryTitleTextColor">@color/material_dynamic_primary80</item>
+    </style>
+</resources>

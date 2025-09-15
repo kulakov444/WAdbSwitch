@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: NONE
+
+    SPDX-License-Identifier: Unlicense
+-->
+<resources>
+    <color name="primary">#87aaff</color>
+    <color name="primaryLight">#aec5fd</color>
+    <color name="primaryDark">#6693ff</color>
+    <color name="primaryDarker">#002b6c</color>
+</resources>

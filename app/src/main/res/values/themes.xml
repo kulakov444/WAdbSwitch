@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: NONE
+
+    SPDX-License-Identifier: Unlicense
+-->
+<resources>
+    <style name="Preference.SwitchPreferenceCompat.WAdbSwitch" parent="@style/Preference.SwitchPreferenceCompat.Material">
+        <item name="widgetLayout">@layout/preference_switch</item>
+    </style>
+    <style name="Preference.Category.WAdbSwitch" parent="@style/Preference.Category.Material">
+        <item name="allowDividerAbove">false</item>
+        <item name="allowDividerBelow">false</item>
+    </style>
+    <style name="ThemeOverlay.App.Preference" parent="PreferenceThemeOverlay">
+        <item name="switchPreferenceCompatStyle">@style/Preference.SwitchPreferenceCompat.WAdbSwitch</item>
+        <item name="preferenceCategoryStyle">@style/Preference.Category.WAdbSwitch</item>
+    </style>
+    <style name="Theme.WAdbSwitch" parent="Theme.Material3.DynamicColors.DayNight.NoActionBar">
+        <item name="preferenceTheme">@style/ThemeOverlay.App.Preference</item>
+        <item name="android:colorPrimaryDark">@color/primaryDark</item>
+        <item name="android:colorAccent">@color/primary</item>
+    </style>
+</resources>
