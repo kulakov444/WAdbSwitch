@@ -29,7 +29,7 @@ Authenticity of downloaded apk can be verified using methods below.
 #### [apksigner](https://developer.android.com/studio/command-line/apksigner#usage-verify)
 
 ```shell
-apksigner verify --print-certs WAdbSwitch-*.*.apk
+apksigner verify --print-certs WAdbSwitch-*.*.*.apk
 ```
 
 SHA256 hash of signing certificate should match `62c93a6a70c86129d0c8652fd9abca7826f9a11aeaf0ceb2591004606284cc53`
