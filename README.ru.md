@@ -19,8 +19,8 @@
 
 ## Загрузка
 
-[<img src="badges/get-it-on-codeberg.png" alt="Get it on Codeberg" height="96">](https://codeberg.org/)
-[<img src="badges/get-it-on-github.png" alt="Get it on GitHub" height="96">](https://github.com/)
+[<img src="badges/get-it-on-codeberg.png" alt="Get it on Codeberg" height="96">](https://codeberg.org/kulakov444/WAdbSwitch/releases)
+[<img src="badges/get-it-on-github.png" alt="Get it on GitHub" height="96">](https://github.com/kulakov444/WAdbSwitch/releases)
 
 ### Проверка
 
