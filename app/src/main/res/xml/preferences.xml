@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <!--
     SPDX-FileCopyrightText: NONE
 
     SPDX-License-Identifier: Unlicense
 -->
+
 <PreferenceScreen
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -29,3 +31,4 @@
         android:key="reset_flag"
         android:title="@string/reset_flag"/>
 </PreferenceScreen>
+

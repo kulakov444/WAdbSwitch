@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <!--
     SPDX-FileCopyrightText: NONE
 
     SPDX-License-Identifier: Unlicense
 -->
+
 <com.google.android.material.materialswitch.MaterialSwitch xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/switchWidget"
@@ -14,3 +16,4 @@
     app:trackTint="@color/preference_switch_track"
     app:thumbTint="@color/preference_switch_thumb"
     android:background="@null" />
+

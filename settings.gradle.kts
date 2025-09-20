@@ -27,3 +27,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "WAdbSwitch"
 include(":app")
+

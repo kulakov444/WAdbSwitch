@@ -3,6 +3,7 @@
  *
  * SPDX-License-Identifier: Unlicense
  */
+
 package name.kulakov444.wadbswitch
 
 import android.Manifest
@@ -87,3 +88,4 @@ class MainActivity : AppCompatActivity() {
         hasPermission?.summary = if (granted) "" else getString(R.string.required_permission)
     }
 }
+

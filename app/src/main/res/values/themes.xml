@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <!--
     SPDX-FileCopyrightText: NONE
 
     SPDX-License-Identifier: Unlicense
 -->
+
 <resources>
     <style name="Preference.SwitchPreferenceCompat.WAdbSwitch" parent="@style/Preference.SwitchPreferenceCompat.Material">
         <item name="widgetLayout">@layout/preference_switch</item>
@@ -22,3 +24,4 @@
         <item name="android:colorAccent">@color/primary</item>
     </style>
 </resources>
+

@@ -3,6 +3,7 @@
  *
  * SPDX-License-Identifier: Unlicense
  */
+
 package name.kulakov444.wadbswitch
 
 import android.content.BroadcastReceiver
@@ -26,3 +27,4 @@ class SwitchBroadcastReceiver : BroadcastReceiver() {
         }
     }
 }
+
