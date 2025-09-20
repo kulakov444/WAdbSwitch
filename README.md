@@ -74,6 +74,7 @@ am broadcast           \
     --ei value $1      \
     $PACKAGE           \
 
+unset PACKAGE
 ```
 
 In kotlin:
